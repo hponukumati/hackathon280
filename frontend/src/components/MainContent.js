@@ -9,6 +9,11 @@ const MainContent = () => {
       <input type="text" placeholder="Enter your query here" />
       <button>Submit</button>
 
+      <div className="slider">
+        <h3>1961 - 2020</h3>
+        <input type="range" min="1961" max="2020" />
+      </div>
+
       <div className="response">
         <h3>Response:</h3>
         <p>Your answer will appear here.</p>
