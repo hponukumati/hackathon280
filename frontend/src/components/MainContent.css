@@ -1,0 +1,62 @@
+/* MainContent.css */
+.main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .main-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .main-content button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-content button:hover {
+    background-color: #357abd;
+  }
+  
+  .slider {
+    margin-top: 20px;
+  }
+  
+  .slider h3 {
+    margin-bottom: 5px;
+  }
+  
+  .slider input[type="range"] {
+    width: 100%;
+  }
+  
+  .response {
+    margin-top: 20px;
+    background-color: #f4f6f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .response h3 {
+    font-size: 1.2em;
+  }
+  
+  .response p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  
